@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World!</title>
+<title>Hello World!</title>
+<style type="text/css">
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		
+		background-color: gray;
+	}
+
+	#box {
+		background-color: blue;
+		padding: 10px;
+		border: 5px solid black;
+		margin: 40px;
+		width: 300px;
+		height: 50px;
+		overflow: auto;
+	}
+	#content {
+		background-color: #90EE90
+	}
+
+	p {
+		margin-bottom: 30px
+	}
+</style>
+
 </head>
 <body>
 <h1>Hello, World!</h1>
+<p>Testing the box model</p>
+<div id="box">
+	<div id="content">
+		Lorem ipsum dolor sit amet, this is my test text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu lorem id nibh porta ornare. Mauris tempor diam pulvinar orci pulvinar tempor. Proin ut nisl porttitor, ultrices tellus a, convallis mi. Cras facilisis odio orci, eget dignissim dui tincidunt at. Vestibulum ut augue congue, scelerisque tortor vitae, ultrices sapien. Aliquam et magna nulla.
+	</div>
+</div>
 </body>
 </html>
