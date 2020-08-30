@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Bradley Hand", cursive;
 }
 h1 {
   text-align: center;
@@ -56,4 +57,28 @@ h3 {
   width: 110px;
   padding: 5px;
   text-align: center;
+}
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
 }
