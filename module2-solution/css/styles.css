@@ -12,11 +12,12 @@ h3 {
   border: 1px solid black;
 }
 .container {
-  width: 100%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 .section {
+  width: 100%;
   border: 1px solid black;
   background-color: #767676;
   padding: 5px;
@@ -34,19 +35,25 @@ h3 {
   position: absolute;
   top: 0;
   right: 0;
+  width: 110px;
   padding: 5px;
+  text-align: center;
 }
 .title2{
   background-color: #fff400;
   position: absolute;
   top: 0;
   right: 0;
+  width: 110px;
   padding: 5px;
+  text-align: center;
 }
 .title3{
   background-color: #fd00ff;
   position: absolute;
   top: 0;
   right: 0;
+  width: 110px;
   padding: 5px;
+  text-align: center;
 }
